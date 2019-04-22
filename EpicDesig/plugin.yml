@@ -1,0 +1,32 @@
+main: EpicFX\EpicDesig\EpicDesig
+name: EpicDesig
+version: 1.0.0
+api: 
+- 3.0.0
+- 4.0.0
+load: POSTWORLD
+authors: 
+- Winfxk
+- Anders
+EpicFX: 
+   Anders: 摸鱼
+   Winfxk: 帅逼凯
+description: 一个史诗级别的称号插件
+depend: ~
+softdepend: ~
+loadbefore: ~
+extensions: ~
+prefix: EpicDesig
+website: https://github.com/xkmp/EpicDesig
+commands:
+   称号:
+      description: 史诗称号插件主命令
+      usage: /称号 help
+      permission: EpicDesig.Command.Main
+      aliases: 
+      - 称号
+      - dpicdesig
+permissions:
+   EpicDesig.Command.Main:
+      description: 称号插件主命令
+      default: true
